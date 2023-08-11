@@ -1,0 +1,96 @@
+body
+{
+  background-color: #F8F6F4;
+}
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 20px;
+  color: #27374D;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #C4DFDF;
+  color: #27374D;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 3px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+ 
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #27374D;
+  color: #ccc;
+  border-radius:3px;
+  margin-top: 50px;
+}
+.innercard
+{
+  text-align: left;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: auto;
+}
+.curve {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 80%;
+  background: #C4DFDF;
+  border-top-left-radius: 100%;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.curveleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  height: 80%;
+  background: #C4DFDF;
+  border-top-right-radius: 100%;
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+.section-title{
+	position: relative;
+	font-size: 2rem;
+	color: #27374D;
+	margin-top: 25px;
+	margin-bottom: 2rem;
+	text-align: center;
+  font-family: Century Gothic;
+}
+
